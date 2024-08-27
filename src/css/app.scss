@@ -1,0 +1,39 @@
+// global
+letter-spacing-none {
+  letter-spacing: 0;
+}
+
+.q-popup-edit__buttons {
+  .q-btn {
+    text-transform: none;
+  }
+}
+
+// drawer
+.q-drawer {
+  .q-item {
+    opacity: 0.6;
+    &.q-router-link--exact-active {
+      opacity: 1;
+    }
+  }
+}
+
+// number inputs
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.entries {
+  .q-slide-item {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    &:not(:first-child) {
+      margin-top: -1px;
+    }
+  }
+  .running-balance {
+    right: -5px;
+    bottom: -9px;
+  }
+}
